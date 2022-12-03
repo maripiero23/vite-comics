@@ -1,0 +1,18 @@
+$color-text: #1e1e1e;
+
+@mixin flex_just_center {
+    display: flex;
+    justify-content: center;
+}
+
+
+@mixin flex_space_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flex_space_around {
+    display: flex;
+    justify-content: space-around;
+}
+
