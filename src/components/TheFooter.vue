@@ -78,17 +78,13 @@
 <script>
 export default{
     data(){
-        return{
+// provato a fare un ciclo ma non è venuto
+        return{   
             dcComicsLinks: ['CHARACTERS','COMICS', 'MOVIES', 'TV', 'GAMES', 'VIDEOS', 'NEWS',],
             shopLinks:['SHOP DC', 'SHOP DC Collectibles'],
             dcLinks:['Terms Of Use', 'Privacy policy (New)', 'Ad Choices', 'Advertising', 'Jobs', 'Subscriptions', 'Talent Workshops', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact Us'],
             sitesLinks:['DC', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Visa']
 
-
-            
-            
-
-        
         }
     }
 }

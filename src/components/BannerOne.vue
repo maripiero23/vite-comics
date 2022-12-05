@@ -8,7 +8,7 @@
             <div class="logo">
                 <img class="brand-img" src="../assets/img/buy-comics-digital-comics.png" alt="">
             </div>
-            <div class="btand-text ps-3">
+            <div class="btand-text ps-1">
                 <div>DIGITAL COMICS</div>
             </div>
         </div>
@@ -17,7 +17,7 @@
             <div class="logo">
                 <img class="brand-img" src="../assets/img/buy-comics-merchandise.png" alt="">
             </div>
-            <div class="btand-text ps-3">
+            <div class="btand-text ps-1">
                 <div>DC MERCHANDISE</div>
             </div>
         </div>
@@ -26,7 +26,7 @@
             <div class="logo">
                 <img class="brand-img" src="../assets/img/buy-comics-subscriptions.png" alt="">
             </div>
-            <div class="btand-text ps-3">
+            <div class="btand-text ps-1">
                 <div>DC SUBSCRIPTION</div>
             </div>
         </div>
@@ -35,7 +35,7 @@
             <div class="logo">
                 <img class="brand-img" src="../assets/img/buy-comics-shop-locator.png" alt="">
             </div>
-            <div class="btand-text ps-3">
+            <div class="btand-text ps-1">
                 <div>COMIC SHOP LOCATOR</div>
             </div>
         </div>
@@ -44,7 +44,7 @@
             <div class="logo">
                 <img class="brand-img" src="../assets/img/buy-dc-power-visa.svg" alt="">
             </div>
-            <div class="btand-text ps-3">
+            <div class="btand-text ps-1">
                 <div>DC POWER VISA</div>
             </div>
         </div>
@@ -106,6 +106,7 @@ export default{
 
     .brand-container{
         display: flex;
+        padding-left: 2rem;
     }
 
     .btand-text{
