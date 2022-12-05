@@ -97,25 +97,35 @@ export default{
 
   <TheHeader></TheHeader>
   <main>
-    <div class="container">
+  
+    <img class="img-jumb" src="./assets/img/jumbotron.jpg" alt="">
+    
+    <div class="container py-5">
+      <div class="current-series-container bg-primary">
+        <span>CURRENT SERIES</span>
+      </div>
 
       <div class="cards-container">
         <div class="row row-cols-1 row-cols-md-6 g-4">
 
           <!-- Singola Card -->
           <div class="col" v-for="(card, i) in cardsList" :key="('carta_' + i)">
-            <div class="card">
+            <div class="card d-flex">
               <img :src="card.thumb" class="card-img-top" alt="...">
               
               <div class="card-body">
                 <h5 class="card-title">{{card.series}}</h5>
+                <p>Tipologia: {{card.type}}</p>
+                <span>Prezzo: {{card.price}}</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <div class="button-container d-flex justify-content-center pb-3">
+      <button type="button" class="btn btn-primary fw-semibold rounded-0 px-5">LOAD MORE</button>
+    </div>
 
   </main>  
   <TheMain></TheMain>
@@ -132,6 +142,37 @@ export default{
 
 <!-- carico il file general.scss -->
 <style lang="scss" >
-@use './styles/general.scss'
+@use './styles/general.scss' as *;
+
+  main{
+    background-color: rgba(28,28,28,255);
+    
+  }
+
+  .current-series-container{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top: -66px;
+    padding: 5px;
+  }
+
+  .img-jumb{
+    width: 100%;
+    height: 25rem;
+
+  }
+
+  .card{
+    border: none;
+    background-color: rgba(28,28,28,255);
+    color: white;
+
+  }
+
+  
 
 </style>

@@ -21,3 +21,8 @@ $color-secondary-text: #ffffff;
     justify-content: space-around;
 }
 
+@mixin flex_align_center {
+    display: flex;
+    align-items: center;
+}
+
