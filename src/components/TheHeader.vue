@@ -27,7 +27,7 @@ export default{
 @use '../styles/partials/variables' as *;
 
 .my-navbar{
-    @include flex_space_between; 
+    @include flex_space_around; 
     padding: 2rem;
 
     img{
@@ -38,6 +38,7 @@ export default{
         list-style: none;
         @include flex_just_center;
         align-items: center;
+        font-size: 14px;
 
         a{
             padding: 1rem ;

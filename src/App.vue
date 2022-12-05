@@ -18,27 +18,19 @@ export default{
 </script>
 
 <template>
-  <body>
-    <div class="container">
-      <TheHeader></TheHeader>
+
+
+  <TheHeader></TheHeader>
     
-      <TheMain></TheMain>
-    
-      <BannerOne></BannerOne>
-    
-    
-      <Footer></Footer>
-    
-      <BannerTwo></BannerTwo>
+  <TheMain></TheMain>
   
-    </div>
-    
-  </body>
-
-
-
-
+  <BannerOne></BannerOne>
   
+  
+  <TheFooter></TheFooter>
+  
+  <BannerTwo></BannerTwo>
+
     
 </template>
 

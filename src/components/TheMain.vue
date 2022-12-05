@@ -1,5 +1,7 @@
 <template>
-contenuto principale
+    <div class="bg-dark text-white py-5">
+       Content goes here 
+    </div>
 </template>
 
 <script>
