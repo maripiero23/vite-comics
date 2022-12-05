@@ -3,7 +3,7 @@
         <!-- v-for="(brands, i) in brandList" :key="i + brands.text"  provato ma non viene -->
     <div class="brand-container">  
         <div class="logo">
-            <img class="brand-img" src="buy-comics-digital-comics.png" alt="">
+            <img class="brand-img" src="../assets/img/buy-comics-digital-comics.png" alt="">
         </div>
         <div class="btand-text ps-3">
             <div>DIGITAL COMICS</div>
@@ -12,7 +12,7 @@
 
     <div class="brand-container">  
         <div class="logo">
-            <img class="brand-img" src="buy-comics-merchandise.png" alt="">
+            <img class="brand-img" src="../assets/img/buy-comics-merchandise.png" alt="">
         </div>
         <div class="btand-text ps-3">
             <div>DC MERCHANDISE</div>
@@ -21,7 +21,7 @@
 
     <div class="brand-container">  
         <div class="logo">
-            <img class="brand-img" src="buy-comics-subscription.png" alt="">
+            <img class="brand-img" src="../assets/img/buy-comics-subscriptions.png" alt="">
         </div>
         <div class="btand-text ps-3">
             <div>DC SUBSCRIPTION</div>
@@ -30,7 +30,7 @@
 
     <div class="brand-container">  
         <div class="logo">
-            <img class="brand-img" src="buy-comics-shop-locator.png" alt="">
+            <img class="brand-img" src="../assets/img/buy-comics-shop-locator.png" alt="">
         </div>
         <div class="btand-text ps-3">
             <div>COMIC SHOP LOCATOR</div>
@@ -39,7 +39,7 @@
 
     <div class="brand-container">  
         <div class="logo">
-            <img class="brand-img" src="buy-dc-power-visa.png" alt="">
+            <img class="brand-img" src="../assets/img/buy-dc-power-visa.svg" alt="">
         </div>
         <div class="btand-text ps-3">
             <div>DC POWER VISA</div>
@@ -116,5 +116,7 @@ export default{
 
 .brand-img{
     width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
 </style>
